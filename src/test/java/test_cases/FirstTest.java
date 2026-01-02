@@ -15,6 +15,7 @@ public class FirstTest {
 //        not a real project without it someplace
         Thread.sleep(100);
 
+
         String msg = String.format("post GET request to %s endpoint %s", Config.getInstance().getBaseURI(), "/users/2");
         System.out.println(msg);
         Response response = exampleServiceClient.getUser("/users/2");
