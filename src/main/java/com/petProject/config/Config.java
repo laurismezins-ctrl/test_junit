@@ -37,8 +37,8 @@ public class Config {
         return CONFIG;
     }
     public void setBaseURI() {
-        RestAssured.baseURI = properties.getProperty("rest.assured.uri");
-//        RestAssured.baseURI = "https://reqres.in/api";
+        RestAssured.baseURI = properties.getProperty("dummy.json.uri");
+//        RestAssured.baseURI = properties.getProperty("rest.assured.uri");
     }
 
     public String getBaseURI() {
