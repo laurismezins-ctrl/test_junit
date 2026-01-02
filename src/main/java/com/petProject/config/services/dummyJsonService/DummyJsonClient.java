@@ -9,7 +9,6 @@ import static io.restassured.RestAssured.get;
 
 public class DummyJsonClient {
 
-
     private HttpClient client = HttpClient.newHttpClient();
 
     public DummyJsonClient() {
