@@ -27,14 +27,15 @@ public class UserServiceSpringTest {
     String beanName1;
 
     @Value("${rest.assured.uri}")
-    private String baseUrl;
+    String baseUrl;
 
     @Test
     void getUserTest() throws Exception {
         System.out.println(beanName1);
         System.out.println(baseUrl);
-        var response = userServiceSpring.getUser(2);
+        System.out.println(userServiceSpring.getMessageFromMyClient("test"));
 
+        var response = userServiceSpring.getUser(2);
         assertEquals(403, response.statusCode());
     }
 }

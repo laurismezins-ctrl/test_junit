@@ -10,10 +10,14 @@ import java.net.http.HttpResponse;
 @Service
 public class UserServiceSpring {
 
+    private final MyClient myClient;
+
     private final String baseUrl;
     private final HttpClient client;
 
-    public UserServiceSpring() {
+    public UserServiceSpring(MyClient myClient) {
+        this.myClient = myClient;
+
         this.baseUrl = "https://reqres.in/api";
         this.client = HttpClient.newHttpClient();
     }
@@ -26,5 +30,9 @@ public class UserServiceSpring {
                 .build();
 
         return client.send(request, HttpResponse.BodyHandlers.ofString());
+    }
+
+    public String getMessageFromMyClient(String message) {
+        return "message: " + myClient.getMessage(message);
     }
 }
