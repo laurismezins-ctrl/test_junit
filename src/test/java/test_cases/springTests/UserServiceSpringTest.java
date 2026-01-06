@@ -12,7 +12,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 @ExtendWith(SpringExtension.class)
 @ContextConfiguration(classes = AppConfigSpring.class)
-public class userServiceSpringTest {
+public class UserServiceSpringTest {
 
     @Autowired
     private UserServiceSpring userServiceSpring;
