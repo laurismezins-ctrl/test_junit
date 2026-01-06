@@ -33,8 +33,22 @@
             <scope>compile</scope>
         </dependency>
 
-    </dependencies>
+        <!-- Spring Context for DI -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>6.1.2</version>
+        </dependency>
 
+        <!-- Spring Test support -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <version>6.1.2</version>
+            <scope>test</scope>
+        </dependency>
+
+    </dependencies>
     <build>
         <plugins>
             <plugin>
