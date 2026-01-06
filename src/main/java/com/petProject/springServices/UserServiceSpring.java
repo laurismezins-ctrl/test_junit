@@ -1,4 +1,4 @@
-package com.petProject.config.services.springServices;
+package com.petProject.springServices;
 
 import org.springframework.stereotype.Service;
 

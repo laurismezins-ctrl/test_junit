@@ -8,7 +8,7 @@ import java.util.Properties;
 
 public class Config {
 
-    private static final String FILE_NAME = "test.properties";
+    private static final String FILE_NAME = "test_properties";
     private final Properties properties;
     private static Config CONFIG;
 

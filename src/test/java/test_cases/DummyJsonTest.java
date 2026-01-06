@@ -1,7 +1,7 @@
 package test_cases;
 
 import com.petProject.config.Config;
-import com.petProject.config.services.dummyJsonService.DummyJsonClient;
+import com.petProject.services.dummyJsonService.DummyJsonClient;
 import io.restassured.response.Response;
 import org.junit.jupiter.api.Test;
 
