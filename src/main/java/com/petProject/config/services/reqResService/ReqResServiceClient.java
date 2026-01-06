@@ -1,4 +1,4 @@
-package com.petProject.config.services.ReqResService;
+package com.petProject.config.services.reqResService;
 
 import com.petProject.config.Config;
 import io.restassured.response.Response;

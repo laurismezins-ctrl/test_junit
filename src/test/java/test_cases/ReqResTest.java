@@ -1,7 +1,7 @@
 package test_cases;
 
 import com.petProject.config.Config;
-import com.petProject.config.services.ReqResService.ReqResServiceClient;
+import com.petProject.config.services.reqResService.ReqResServiceClient;
 import io.restassured.response.Response;
 import org.junit.jupiter.api.Test;
 
