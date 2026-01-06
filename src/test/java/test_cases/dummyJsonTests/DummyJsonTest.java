@@ -1,4 +1,4 @@
-package test_cases;
+package test_cases.dummyJsonTests;
 
 import com.petProject.config.Config;
 import com.petProject.services.dummyJsonService.DummyJsonClient;
