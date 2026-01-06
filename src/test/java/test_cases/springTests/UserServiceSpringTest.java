@@ -32,7 +32,8 @@ public class UserServiceSpringTest {
     @Test
     void getUserTest() throws Exception {
         System.out.println(beanName1);
-        System.out.println(baseUrl);
+        System.out.println("url from test file Value " + baseUrl);
+        System.out.println("url from userServiceSpring Value " + userServiceSpring.getBaseUrl());
         System.out.println(userServiceSpring.getMessageFromMyClient("test"));
 
         var response = userServiceSpring.getUser(2);
